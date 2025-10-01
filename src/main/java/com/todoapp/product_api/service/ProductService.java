@@ -2,10 +2,12 @@ package com.todoapp.product_api.service;
 
 import com.todoapp.product_api.model.Product;
 import com.todoapp.product_api.repository.ProductRespository;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Optional;
 
+@Service
 public class ProductService {
     private final ProductRespository repo;
 

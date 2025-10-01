@@ -2,8 +2,6 @@ package com.todoapp.product_api.model;
 
 import jakarta.validation.constraints.*;
 import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
-
 
 public class Product {
 
